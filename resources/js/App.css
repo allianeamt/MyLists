@@ -1,0 +1,243 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(9, 137, 127, 0.8) 0%,
+    rgb(101, 191, 122) 100%
+  );
+  font: "Cooper Black"
+}
+
+.organizer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 520px;
+  min-height: 600px;
+  background: #000000;
+  text-align: center;
+  margin: 64px auto;
+  border-radius: 10px;
+  padding-bottom: 64px;
+}
+
+.todo-form {
+  margin-bottom: 32px;
+  
+}
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border: 2px solid #329C96;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+  margin: 15px;
+}
+
+.todo-input::placeholder {
+  color: #e2e2e2;
+}
+
+.todo-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgb(50, 156, 150) 0%,
+    rgb(24, 94, 91) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+.list-button {
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 14px 32px 14px 16px;
+  border: 2px solid #329C96;
+  outline: none;
+  width: 320px;
+  background: linear-gradient(
+    90deg,
+    rgb(8, 99, 86) 0%,
+    rgb(8, 99, 86) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+.delete-button {
+  padding: 16px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  padding: 14px 32px 14px 16px;
+  border: 2px solid #329C96;
+  outline: none;
+  width: 80px;
+  background: linear-gradient(
+    90deg,
+    rgb(8, 99, 86) 0%,
+    rgb(8, 99, 86) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  color: #fff;
+  background: rgb(84, 85, 148);
+  padding: 16px;
+  border-radius: 15px;
+  width: 90%;
+}
+.todo-row:nth-child(5n + 1) {
+  background: rgb(3, 159, 155);
+}
+
+.todo-row:nth-child(5n + 2) {
+  background: rgb(8, 99, 86);
+}
+
+.todo-row:nth-child(5n + 3) {
+  background: rgb(76, 84, 166);
+}
+.todo-row:nth-child(5n + 4) {
+  background: rgb(130, 107, 179);
+}
+
+.todo-row-cut {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  color: #fff;
+  background: rgb(43, 46, 43);
+  padding: 16px;
+  border-radius: 15px;
+  width: 90%;
+  text-decoration: line-through;
+}
+
+.todo-row-shop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  color: #fff;
+  background: rgb(140, 168, 1);
+  padding: 16px;
+  border-radius: 15px;
+  width: 90%;
+}
+.todo-row-shop:nth-child(5n + 1) {
+  background: rgb(1, 168, 101);
+}
+
+.todo-row-shop:nth-child(5n + 2) {
+  background: rgb(96, 168, 1);
+}
+
+.todo-row-shop:nth-child(5n + 3) {
+  background: rgb(168, 168, 1);
+}
+.todo-row-shop:nth-child(5n + 4) {
+  background: rgb(168, 101, 1);
+}
+
+.todo-row-cut-shop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  color: #fff;
+  background: rgb(43, 46, 43);
+  padding: 16px;
+  border-radius: 15px;
+  width: 90%;
+  text-decoration: line-through;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.link {
+	color:#3248A8;
+}
+
+.boxy:hover {
+	opacity: 0.9;
+	transition-duration: 0.5s;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.listOfLists {
+	line-height: 30px;
+}
+
+.delete-icon {
+  margin-right: 5px;
+}
+
+.edit-icon {
+  margin-right: 5px;
+}
+
+.check-icon {
+  margin-right: 5px;
+}
+
+.delete-icon:hover {
+	cursor: pointer;
+}
+
+.edit-icon:hover {
+	cursor: pointer;
+}
+
+.check-icon:hover {
+	cursor: pointer;
+}
+
+.errors {
+	color: rgb(28, 76, 84);
+}
+
+

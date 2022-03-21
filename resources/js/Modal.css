@@ -1,0 +1,535 @@
+.modalBackground {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.35);
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modalContainer0 {
+	width: 600px;
+	height: auto;
+	border-radius: 20px;
+	background-color: rgb(2, 115, 111);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display:flex;
+	flex-direction: column;
+	padding: 25px;
+	color: white;
+}
+
+.modalContainer1 {
+	width: 600px;
+	height: auto;
+	border-radius: 20px;
+	background-color: rgb(5, 61, 53);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display:flex;
+	flex-direction: column;
+	padding: 25px;
+	color: white;
+}
+
+.modalContainer2 {
+	width: 600px;
+	height: auto;
+	border-radius: 20px;
+	background-color: rgb(53, 58, 117);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display:flex;
+	flex-direction: column;
+	padding: 25px;
+	color: white;
+}
+
+.modalContainer3 {
+	width: 600px;
+	height: auto;
+	border-radius: 20px;
+	background-color: rgb(98, 80, 138);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display:flex;
+	flex-direction: column;
+	padding: 25px;
+	color: white;
+}
+
+.modalContainer4 {
+	width: 600px;
+	height: auto;
+	border-radius: 20px;
+	background-color: rgb(55, 56, 97);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display:flex;
+	flex-direction: column;
+	padding: 25px;
+	color: white;
+}
+
+.modalContainer5 {
+	width: 600px;
+	height: auto;
+	border-radius: 20px;
+	background-color: rgb(43, 46, 43);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display:flex;
+	flex-direction: column;
+	padding: 25px;
+	color: white;
+}
+
+
+.inputUpdate0 {
+	background-color: rgb(3, 159, 155);
+	border-color: rgb(3, 159, 155);
+	color: white;
+	font-size: 21px;
+}
+
+.inputUpdate1 {
+	background-color: rgb(8, 99, 86);
+	border-color: rgb(8, 99, 86);
+	color: white;
+	font-size: 21px;
+}
+
+.inputUpdate2 {
+	background-color: rgb(76, 84, 166);
+	border-color: rgb(76, 84, 166);
+	color: white;
+	font-size: 21px;
+}
+
+.inputUpdate3 {
+	background-color: rgb(130, 107, 179);
+	border-color: rgb(130, 107, 179);
+	color: white;
+	font-size: 21px;
+}
+
+.inputUpdate4 {
+	background-color: rgb(84, 85, 148);
+	border-color: rgb(84, 85, 148);
+	color: white;
+	font-size: 21px;
+}
+
+.inputUpdate5 {
+	background-color: rgb(60, 64, 60);
+	border-color: rgb(60, 64, 60);
+	color: white;
+	font-size: 21px;
+}
+
+.labels {
+	text-align: left;
+	position: relative;
+	left: 125px;
+}
+
+.updateButton0 {
+	background-color: rgb(3, 159, 155);
+	border-color: rgb(3, 159, 155);
+	color: white;
+	font-size: 21px;
+}
+
+.updateButton1 {
+	background-color: rgb(8, 99, 86);
+	border-color: rgb(8, 99, 86);
+	color: white;
+	font-size: 21px;
+}
+
+.updateButton2 {
+	background-color: rgb(76, 84, 166);
+	border-color: rgb(76, 84, 166);
+	color: white;
+	font-size: 21px;
+}
+
+.updateButton3 {
+	background-color: rgb(130, 107, 179);
+	border-color: rgb(130, 107, 179);
+	color: white;
+	font-size: 21px;
+}
+
+.updateButton4 {
+	background-color: rgb(84, 85, 148);
+	border-color: rgb(84, 85, 148);
+	color: white;
+	font-size: 21px;
+}
+
+.updateButton5 {
+	background-color: rgb(60, 64, 60);
+	border-color: rgb(60, 64, 60);
+	color: white;
+	font-size: 21px;
+}
+
+.editButton0 {
+	background-color: rgb(3, 159, 155);
+	border-color: rgb(3, 159, 155);
+	color: white;
+	font-size: 21px;
+}
+
+.editButton1 {
+	background-color: rgb(8, 99, 86);
+	border-color: rgb(8, 99, 86);
+	color: white;
+	font-size: 21px;
+}
+
+.editButton2 {
+	background-color: rgb(76, 84, 166);
+	border-color: rgb(76, 84, 166);
+	color: white;
+	font-size: 21px;
+}
+
+.editButton3 {
+	background-color: rgb(130, 107, 179);
+	border-color: rgb(130, 107, 179);
+	color: white;
+	font-size: 21px;
+}
+
+.editButton4 {
+	background-color: rgb(84, 85, 148);
+	border-color: rgb(84, 85, 148);
+	color: white;
+	font-size: 21px;
+}
+
+.editButton5 {
+	background-color: rgb(60, 64, 60);
+	border-color: rgb(60, 64, 60);
+	color: white;
+	font-size: 21px;
+}
+
+.description {
+    overflow-wrap: anywhere;
+}
+
+.closeBtn {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.closeBtn button {
+	background-color: transparent;
+	border: none;
+	font-size: 25px;
+	cursor: pointer;
+	color: white;
+}
+
+.deletePicture0 button {
+	background-color: rgb(2, 115, 111);
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	color: white;
+	position: relative;
+	vertical-align: top;
+	right: 21px;
+}
+
+.deletePicture1 button {
+	background-color: rgb(5, 61, 53);
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	color: white;
+	position: relative;
+	vertical-align: top;
+	right: 21px;
+}
+
+.deletePicture2 button {
+	background-color: rgb(53, 58, 117);
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	color: white;
+	position: relative;
+	vertical-align: top;
+	right: 21px;
+}
+
+.deletePicture3 button {
+	background-color: rgb(98, 80, 138);
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	color: white;
+	position: relative;
+	vertical-align: top;
+	right: 21px;
+}
+
+.deletePicture4 button {
+	background-color: rgb(55, 56, 97);
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	color: white;
+	position: relative;
+	vertical-align: top;
+	right: 21px;
+}
+
+.deletePicture5 button {
+	background-color: rgb(43, 46, 43);
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	color: white;
+	position: relative;
+	vertical-align: top;
+	right: 21px;
+}
+	
+.modalContainer .title {
+	display: inline-block;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.modalContainer .body {
+	flex: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.7rem;
+	text-align: center;
+}
+
+.modalContainer .footer {
+	flex: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.userPicture {
+	max-height:300px;
+	width: 400px;
+}
+
+.userEditPicture {
+	max-height: 100px;
+	width: 150px;
+}
+
+.modalContainerShop0 {
+	width: 600px;
+	height: auto;
+	border-radius: 20px;
+	background-color: rgb(1, 115, 69);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display:flex;
+	flex-direction: column;
+	padding: 25px;
+	color: white;
+}
+
+.modalContainerShop1 {
+	width: 600px;
+	height: auto;
+	border-radius: 20px;
+	background-color: rgb(63, 110, 1);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display:flex;
+	flex-direction: column;
+	padding: 25px;
+	color: white;
+}
+
+.modalContainerShop2 {
+	width: 600px;
+	height: auto;
+	border-radius: 20px;
+	background-color: rgb(115, 115, 1);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display:flex;
+	flex-direction: column;
+	padding: 25px;
+	color: white;
+}
+
+.modalContainerShop3 {
+	width: 600px;
+	height: auto;
+	border-radius: 20px;
+	background-color: rgb(128, 77, 1);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display:flex;
+	flex-direction: column;
+	padding: 25px;
+	color: white;
+}
+
+.modalContainerShop4 {
+	width: 600px;
+	height: auto;
+	border-radius: 20px;
+	background-color: rgb(96, 115, 1);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display:flex;
+	flex-direction: column;
+	padding: 25px;
+	color: white;
+}
+
+.modalContainerShop5 {
+	width: 600px;
+	height: auto;
+	border-radius: 20px;
+	background-color: rgb(43, 46, 43);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display:flex;
+	flex-direction: column;
+	padding: 25px;
+	color: white;
+}
+
+.inputUpdateShop0 {
+	background-color: rgb(1, 168, 101);
+	border-color: rgb(1, 168, 101);
+	color: white;
+	font-size: 21px;
+}
+
+.inputUpdateShop1 {
+	background-color: rgb(96, 168, 1);
+	border-color: rgb(96, 168, 1);
+	color: white;
+	font-size: 21px;
+}
+
+.inputUpdateShop2 {
+	background-color: rgb(168, 168, 1);
+	border-color: rgb(168, 168, 1);
+	color: white;
+	font-size: 21px;
+}
+
+.inputUpdateShop3 {
+	background-color: rgb(168, 101, 1);
+	border-color: rgb(168, 101, 1);
+	color: white;
+	font-size: 21px;
+}
+
+.inputUpdateShop4 {
+	background-color: rgb(140, 168, 1);
+	border-color: rgb(140, 168, 1);
+	color: white;
+	font-size: 21px;
+}
+
+.inputUpdateShop5 {
+	background-color: rgb(60, 64, 60);
+	border-color: rgb(60, 64, 60);
+	color: white;
+	font-size: 21px;
+}
+
+.labels {
+	text-align: left;
+	position: relative;
+	left: 125px;
+}
+
+.updateButtonShop0 {
+	background-color: rgb(1, 168, 101);
+	border-color: rgb(1, 168, 101);
+	color: white;
+	font-size: 21px;
+}
+
+.updateButtonShop1 {
+	background-color: rgb(96, 168, 1);
+	border-color: rgb(96, 168, 1);
+	color: white;
+	font-size: 21px;
+}
+
+.updateButtonShop2 {
+	background-color: rgb(168, 168, 1);
+	border-color: rgb(168, 168, 1);
+	color: white;
+	font-size: 21px;
+}
+
+.updateButtonShop3 {
+	background-color: rgb(168, 101, 1);
+	border-color: rgb(168, 101, 1);
+	color: white;
+	font-size: 21px;
+}
+
+.updateButtonShop4 {
+	background-color: rgb(140, 168, 1);
+	border-color: rgb(140, 168, 1);
+	color: white;
+	font-size: 21px;
+}
+
+.updateButtonShop5 {
+	background-color: rgb(60, 64, 60);
+	border-color: rgb(60, 64, 60);
+	color: white;
+	font-size: 21px;
+}
+
+.editButtonShop0 {
+	background-color: rgb(1, 168, 101);
+	border-color: rgb(1, 168, 101);
+	color: white;
+	font-size: 21px;
+}
+
+.editButtonShop1 {
+	background-color: rgb(96, 168, 1);
+	border-color: rgb(96, 168, 1);
+	color: white;
+	font-size: 21px;
+}
+
+.editButtonShop2 {
+	background-color: rgb(168, 168, 1);
+	border-color: rgb(168, 168, 1);
+	color: white;
+	font-size: 21px;
+}
+
+.editButtonShop3 {
+	background-color: rgb(168, 101, 1);
+	border-color: rgb(168, 101, 1);
+	color: white;
+	font-size: 21px;
+}
+
+.editButtonShop4 {
+	background-color: rgb(140, 168, 1);
+	border-color: rgb(140, 168, 1);
+	color: white;
+	font-size: 21px;
+}
+
+.editButtonShop5 {
+	background-color: rgb(60, 64, 60);
+	border-color: rgb(60, 64, 60);
+	color: white;
+	font-size: 21px;
+}
